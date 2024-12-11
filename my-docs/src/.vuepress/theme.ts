@@ -65,50 +65,50 @@ export default hopeTheme({
   },
 
   // These features are enabled for demo, only preserve features you need here
-  markdown: {
-    align: true,
-    attrs: true,
-    codeTabs: true,
-    component: true,
-    figure: true,
-    gfm: true,
-    imgLazyload: true,
-    imgSize: true,
-    include: true,
-    mark: true,
-    spoiler: true,
-    stylize: [
-      {
-        matcher: "Recommended",
-        replacer: ({ tag }) => {
-          if (tag === "em")
-            return {
-              tag: "Badge",
-              attrs: { type: "tip" },
-              content: "Recommended",
-            };
-        },
-      },
-    ],
-    sub: true,
-    sup: true,
-    tabs: true,
-    tasklist: true,
-    vPre: true,
+  // markdown: {
+  //   align: true,
+  //   attrs: true,
+  //   codeTabs: true,
+  //   component: true,
+  //   figure: true,
+  //   gfm: true,
+  //   imgLazyload: true,
+  //   imgSize: true,
+  //   include: true,
+  //   mark: true,
+  //   spoiler: true,
+  //   stylize: [
+  //     {
+  //       matcher: "Recommended",
+  //       replacer: ({ tag }) => {
+  //         if (tag === "em")
+  //           return {
+  //             tag: "Badge",
+  //             attrs: { type: "tip" },
+  //             content: "Recommended",
+  //           };
+  //       },
+  //     },
+  //   ],
+  //   sub: true,
+  //   sup: true,
+  //   tabs: true,
+  //   tasklist: true,
+  //   vPre: true,
 
-    // uncomment these if you need TeX support
-    // math: {
-    //   // install katex before enabling it
-    //   type: "katex",
-    //   // or install mathjax-full before enabling it
-    //   type: "mathjax",
-    // },
+  //   // uncomment these if you need TeX support
+  //   // math: {
+  //   //   // install katex before enabling it
+  //   //   type: "katex",
+  //   //   // or install mathjax-full before enabling it
+  //   //   type: "mathjax",
+  //   // },
 
-    // install @vuepress/plugin-revealjs and uncomment these if you need slides
-    // revealjs: {
-    //   plugins: ["highlight", "math", "search", "notes", "zoom"],
-    // },
-  },
+  //   // install @vuepress/plugin-revealjs and uncomment these if you need slides
+  //   // revealjs: {
+  //   //   plugins: ["highlight", "math", "search", "notes", "zoom"],
+  //   // },
+  // },
 
   plugins: {
     // Note: This is for testing ONLY!
