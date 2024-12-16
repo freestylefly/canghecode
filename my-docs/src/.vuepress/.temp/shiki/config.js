@@ -1,2 +1,0 @@
-import "/Users/canghe/responsibility/canghe/canghecode/my-docs/node_modules/.pnpm/@vuepress+highlighter-helper@2.0.0-rc.39_vuepress@2.0.0-rc.14/node_modules/@vuepress/highlighter-helper/lib/client/styles/base.css"
-import "/Users/canghe/responsibility/canghe/canghecode/my-docs/node_modules/.pnpm/@vuepress+plugin-shiki@2.0.0-rc.39_vuepress@2.0.0-rc.14/node_modules/@vuepress/plugin-shiki/lib/client/styles/shiki.css"
