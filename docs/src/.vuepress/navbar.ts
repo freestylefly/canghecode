@@ -1,42 +1,41 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-  { 
-    text: "首页",
-    icon: "gaishu",
-    link: "/blog.md" 
-  },
-  { 
-    text: "博客",
-    icon: "gaishu",
-    link: "/blog.md" 
+  {
+    text: '主页',
+    icon: 'home',
+    link: '/',
   },
   { 
     text: "实战项目",
-    icon: "gaishu",
-    link: "/blog.md",
+    icon: "friend",
     children: [
       {
         text: "PmHub",
         icon: "lightbulb",
-        link: "bar/"
+        link: "https://laigeoffer.cn/pmhub/about.html"
       },
     ],
   },
   { 
+    text: "Java进阶",
+    icon: "gaishu",
+    link: "/javamore/" 
+  },
+  { 
     text: "程序人生",
     icon: "gaishu",
-    link: "/blog.md" 
+    link: "/rensheng/" 
   },
   { 
     text: "独立开发",
     icon: "gaishu",
-    link: "/blog.md" 
+    link: "/aliinone/" 
   },
   { 
     text: "AI导航",
     icon: "gaishu",
-    link: "/blog.md" 
+    link: "/aiguide/" 
   },
 
 ]);
