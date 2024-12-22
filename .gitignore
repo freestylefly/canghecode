@@ -2,7 +2,7 @@ node_modules
 .cache
 .temp
 package-lock.json
-.DS_Store
+docs/.vuepress/.DS_Store/
 dump.rdb
 docs/.vuepress/.cache/
 docs/.vuepress/.temp/

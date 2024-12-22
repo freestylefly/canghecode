@@ -25,7 +25,8 @@ export default hopeTheme({
   // 全屏按钮
   fullscreen: true,
   // 在深色模式，浅色模式和自动之间切换 (默认)
-  darkmode: "switch",
+  darkMode: "switch",
+  
 
   // 导航栏
   navbar,
