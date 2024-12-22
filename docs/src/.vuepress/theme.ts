@@ -68,7 +68,10 @@ export default hopeTheme({
     description:"我举手向苍穹，并非一定摘到星月，只是想保持这个永不屈服的姿势。",
     medias: {
       Zhihu: "https://www.zhihu.com/people/canghecode",
-      CSDN: "https://canghe.blog.csdn.net/",
+      CSDN: {
+        link: "https://canghe.blog.csdn.net/",
+        icon: "https://cdn.canghecode.com/blog/csdn.png"
+      },
       Github: "https://github.com/freestylefly",
       Gitee: "https://gitee.com/canghecode",
     },
