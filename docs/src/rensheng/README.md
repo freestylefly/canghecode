@@ -1,9 +1,7 @@
 ---
-title: 主要功能与配置演示
-index: false
-icon: laptop-code
+title: 程序人生
 category:
-  - 使用指南
+  - 程序人生
 ---
 
-<Catalog />
+程序人生

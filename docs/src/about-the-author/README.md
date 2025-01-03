@@ -1,9 +1,6 @@
 ---
-title: 主要功能与配置演示
-index: false
-icon: laptop-code
-category:
-  - 使用指南
+title: 个人介绍 Q&A
+category: 联系作者
 ---
 
-<Catalog />
+大家好，我是苍何呀，一个喜欢折腾的程序员。这篇文章会简单的介绍下自己。

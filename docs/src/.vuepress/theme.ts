@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://canghecode.com",
 
   author: {
     name: "苍何",
@@ -36,10 +36,10 @@ export default hopeTheme({
 
   // 页脚
   // 页脚支持
-  footer: '<a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2021038026号-4</a>'
-  +'<img src="https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/beian.png" height="15px" width="15px" />'
-  +'<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41030502000411">'
-  +'<span>豫公网安备 41030502000411号</span>'
+  footer: '<a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备2024022253号-1</a>'
+  +'<img src="https://cdn.canghecode.com/blog/beian.png" height="15px" width="15px" />'
+  +'<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=2024022253">'
+  +'<span>赣ICP备 2024022253号</span>'
   +'</a>',
   displayFooter: true,
 
@@ -63,7 +63,7 @@ export default hopeTheme({
     intro: "/about-the-author/",
     sidebarDisplay: "mobile",
     // 博主头像
-    avatar: "/assets/icon/logo-canghecode.jpg",
+    avatar: "https://cdn.canghecode.com/blog/logo-canghecode.jpg",
     // 座右铭
     description:"我举手向苍穹，并非一定摘到星月，只是想保持这个永不屈服的姿势。",
     medias: {
@@ -159,10 +159,12 @@ export default hopeTheme({
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repo: "freestylefly/canghecode",
+      repoId: "R_kgDONar3qA",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDONar3qM4ClsOK",
+      // 添加本地开发环境支持
+      crossorigin: "anonymous",
     },
 
     components: {
@@ -290,7 +292,7 @@ export default hopeTheme({
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     pwa: {
-      favicon: "https://cdn.tobebetterjavaer.com/tobebetterjavaer/images/favicon.ico",
+      favicon: "https://cdn.canghecode.com/blog/logo-canghecode.jpg",
       cacheHTML: true,
       cacheImage: true,
       appendBase: true,

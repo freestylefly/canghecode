@@ -1,9 +1,8 @@
 ---
-title: 主要功能与配置演示
-index: false
-icon: laptop-code
+title: Java进阶
 category:
-  - 使用指南
+  - Java
 ---
 
-<Catalog />
+Java进阶
+

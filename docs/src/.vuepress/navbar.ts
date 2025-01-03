@@ -8,7 +8,7 @@ export default navbar([
   },
   { 
     text: "实战项目",
-    icon: "friend",
+    icon: "blog",
     children: [
       {
         text: "PmHub",
@@ -19,22 +19,22 @@ export default navbar([
   },
   { 
     text: "Java进阶",
-    icon: "gaishu",
+    icon: "info",
     link: "/javamore/" 
   },
   { 
     text: "程序人生",
-    icon: "gaishu",
+    icon: "share",
     link: "/rensheng/" 
   },
   { 
     text: "独立开发",
-    icon: "gaishu",
-    link: "/aliinone/" 
+    icon: "info",
+    link: "/selfdev/" 
   },
   { 
     text: "AI导航",
-    icon: "gaishu",
+    icon: "edit",
     link: "/aiguide/" 
   },
 

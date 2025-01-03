@@ -19,20 +19,20 @@ head:
       content: 苍何的博客，随笔和笔记
 
 projects:
-  - icon: redis
-    name: rdm-builder
-    desc: Redis Desktop Manager编译，下载
-    link: https://github.com/FuckDoctors/rdm-builder
+  - icon: project
+    name: PmHub
+    desc: 苍何的PmHub实战项目
+    link: https://laigeoffer.cn/pmhub/about.html
 
-  - icon: macOS
-    name: 我的黑苹果
-    desc: ideapad-720s-13ikb 黑苹果
-    link: https://github.com/FuckDoctors/ideapad-720s-13ikb-oc
+  - icon: link
+    name: AI编程
+    desc: 苍何的AI编程实践
+    link: /aiguide/
 
-  - icon: note
-    name: 笔记
-    desc: 笔记，琐事
-    link: https://github.com/FuckDoctors/notes2
+  - icon: book
+    name: 学习笔记
+    desc: 苍何的学习笔记
+    link: /javamore/
 
 banner: /logo-cover.svg
 ---

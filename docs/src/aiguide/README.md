@@ -1,9 +1,7 @@
 ---
-title: 主要功能与配置演示
-index: false
-icon: laptop-code
+title: AI导航
 category:
-  - 使用指南
+  - AI
 ---
 
-<Catalog />
+
